@@ -291,11 +291,33 @@ myfileOpen.close()
 #myfileOpen.detach()
 
 
+#%% set
+## Sets are an unordered collection of unique elements
+
+setVar = set()
+setVar.add(1)
+setVar.add(4)
+setVar.add(3)
+setVar.add(2)   # this will not insert the element
+setVar.add(6)
+setVar.add(6)   # this will not insert the element
+setVar.add(1)   # this will not insert the element
+setVar
 
 
+listSetVar=[1,3,4,22,44,35,23,12,22,44,1,2,3]
+setVar2=set(listSetVar)
+listSetVar
+setVar2
 
+#%% Comparison 
 
+2 != 1
+2 < 1
+1 < 2 < 3
+1 < 3 > 2
 
+#%%
 
 
 
